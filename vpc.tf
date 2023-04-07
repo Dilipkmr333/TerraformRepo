@@ -54,7 +54,7 @@ resource "aws_route_table" "Pu_RT" {
   }
 
   tags = {
-    Name = "Terraform-RT"
+    Name = "Terraform-demo-RT"
   }
 }
 resource "aws_route_table" "Private-RT" {
